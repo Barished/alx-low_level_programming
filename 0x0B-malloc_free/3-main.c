@@ -44,6 +44,7 @@ int main(void)
 	if (grid == NULL)
 	{
 		return (1);
+	}
 		print_grid(grid, 6, 4);
 		printf("\n");
 		grid[0][3] = 98;
